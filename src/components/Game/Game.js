@@ -13,7 +13,7 @@ console.info({ answer });
 function Game() {
   return (
     <div>
-      <GuessInput></GuessInput>
+      <GuessInput answer={answer}></GuessInput>
     </div>
     );
 }
